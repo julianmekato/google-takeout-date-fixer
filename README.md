@@ -94,19 +94,18 @@ Generates a `log.txt` containing:
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Usage
 
 Requires Python 3.8+
 Install dependency:
 bash
-pip install tqdm
+````pip install tqdm````
 
-▶ Usage
 Dry run (recommended first)
-python change_date.py --dryrun
+````python change_date.py --dryrun````
 
 Apply changes
-python change_date.py
+````python change_date.py````
 
 ---
 
