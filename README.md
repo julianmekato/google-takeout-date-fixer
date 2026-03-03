@@ -53,12 +53,7 @@ Fully supports:
 ### 2️⃣ Fallback: Filename Date Extraction
 
 Automatically detects dates from patterns like:
-IMG-20221221-WA0158.jpg
-VID-20220730-WA0161.mp4
-null-20231004-WA0156.jpg
-Screenshot_2022-11-16-20-16-26.png
-Screenrecorder-2022-12-07-14-37-31.mp4
-PXL_20230115_153045123.jpg
+IMG-20221221-WA0158.jpg, VID-20220730-WA0161.mp4, null-20231004-WA0156.jpg, Screenshot_2022-11-16-20-16-26.png, Screenrecorder-2022-12-07-14-37-31.mp4, PXL_20230115_153045123.jpg
 
 The script uses generic date detection (`YYYYMMDD` or `YYYY-MM-DD`)  
 so it works regardless of file prefix.
@@ -108,7 +103,15 @@ pip install tqdm
 
 ▶ Usage
 Dry run (recommended first)
-python cambiar_fecha_v8.py --dryrun
+python change_date.py --dryrun
 
 Apply changes
-python cambiar_fecha_v8.py
+python change_date.py
+
+---
+
+🤝 Contributions
+
+If you encounter a new filename pattern, feel free to open an issue.
+
+Pull requests welcome.
